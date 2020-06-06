@@ -1,7 +1,7 @@
 version: "3"
 services:
   app:
-    image: dedFront
+    image: mhuanteraxe/ded-script
     container_name: front
     ports:
       - 80:5000
