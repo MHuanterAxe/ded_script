@@ -1,6 +1,22 @@
-body {
+body, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif, -apple-system;
+}
+body {
+    height: 100vh;
+    background-color: #5EA957;
+
+}
+.app {
+    padding: 64px;
+}
+.file-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
 }
